@@ -29,7 +29,7 @@ print(d)
 string=input("Enter string")
 index=int(input("Enter index"))
 first_part=string[:index]
-last_part=string[index+1]
+last_part=string[index+1:]
 print(first_part+last_part)
 
 # Example
